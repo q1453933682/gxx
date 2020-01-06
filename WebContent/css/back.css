@@ -1,0 +1,229 @@
+*{
+            padding:0;
+            margin:0 auto; 
+        }
+        nav{
+            position:fixed;
+        }
+        body{
+            width:100%;
+            height:100%;
+            background:#cccccc;
+        }
+        #firstpage{
+            margin-top:200px;
+            width:60%;
+            height:500px;
+            line-height:500px;
+            text-align:center;
+        }
+        #nav li{
+            width:300px;
+            height:80px;
+            list-style:none;
+            line-height:80px;
+            text-align:center;
+            float:left;
+            margin-left:50px;
+        }
+        .n1{
+            width:200px;
+            height:80px;
+            color:white;
+            user-select:none;
+        }
+        .n1:hover{
+            color:#69c6ba;
+            background:lightgray; 
+        }
+        #nav li a{
+            text-decoration:none;
+            color:white;
+        }
+        #nav li a:hover{
+            color:#69c6ba; 
+        }
+        .main{
+            width:100%;
+            background:#cccccc;
+            padding-top:80px;
+            margin:0 auto;
+            text-align:center;
+        }
+        #welcome{
+            width:500px;
+            height:200px;
+            text-align:center;
+        }
+        #users .userhead{
+            width:80%;
+            height:50px;
+            background:white;
+            border-bottom:solid 1px black;
+        }
+        #users .userhead strong{
+            float:left;
+            line-height:50px;
+        }
+        #users .userhead .uname{
+            width:20%;
+        }
+        #users .userhead .email{
+            width:40%;
+        }
+        #users .userhead .manage{
+            width:10%;
+        }
+        #users .userhead .forbid{
+            width:30%;
+        }
+        
+        #users .user{
+            width:80%;
+            height:50px;
+        }
+        #users .user p,strong{
+            float:left;
+            line-height:50px;
+        }
+        #users .user .uname{
+            width:20%;
+        }
+        #users .user .email{
+            width:40%;
+        }
+        #users .user .manage{
+            width:10%;
+        }
+        #users .user .forbid{
+            width:30%;
+        }
+        #users .user .forbid p,a{
+            line-height:50px;
+        }
+        #sights .sighthead{
+            width:80%;
+            height:50px;
+            background:white;
+            border-bottom:solid 1px black;
+        }
+        #sights .sighthead strong{
+            float:left;
+            line-height:50px;
+        }
+        #sights .sighthead .sightid{
+            width:10%
+        }
+        #sights .sighthead .sightname{
+            width:30%
+        }
+        #sights .sighthead .addr{
+            width:30%
+        }
+        #sights .sighthead .price{
+            width:10%
+        }
+        #sights .sighthead .control{
+            width:20%
+        }
+        #sights .sight{
+            width:80%;
+            height:50px;
+            border-bottom:solid 1px black;
+        }
+        #sights .sight p,strong{
+            float:left;
+            line-height:50px;
+        }
+        #sights .sight .sightid{
+            width:10%
+        }
+        #sights .sight .sightname{
+            width:30%
+        }
+        #sights .sight .addr{
+            width:30%
+        }
+        #sights .sight .price{
+            width:10%
+        }
+        #sights .sight .control{
+            width:20%
+        }
+        .sightbutton{
+            background:#69c6ba;
+            padding:5px;
+            border:0px;
+        }
+        .sightbutton:hover{
+            background:#c66995;
+        }
+        .double{
+            background:grey;
+        }
+        .alone{
+            background:white;
+        }
+        #main3 #personal{
+            list-style:none;
+            width:50%;
+            height:800px;
+            padding-top:200px;
+            margin:0 auto;
+            text-align:center;
+        }
+        #main3 #personal li{
+            width:100%;
+            height:200px;
+        }
+        #main3 #personal li p{
+            width:100%;
+            height:50px;
+            color:black;
+            font-size:22px;
+        }
+        #main3 #personal li p .button{
+            boeder:0px;
+            boeder-radius:5px;
+            width:150px;
+            height:50px;
+            background:#69c6ba;
+            color:white;
+        }
+        #main3 #personal li p .button:hover{
+            background:#c66995;
+        }
+        #main3 #personal li p .input{
+            width:300px;
+            height:30px;
+            line-height:30px;
+        }
+        #inputnewprice{
+            width:100%;
+            height:300px;
+            text-align:center;
+            margin:0 auto;
+            background:rgba(255,255,255,0.5);
+            position:fixed;
+            margin-top:400px;
+        }
+        #inputnewprice p{
+            width:auto;
+            height:100px;
+            line-height:100px;
+            margin-top:100px;
+        }
+        #newprice{
+            width:200px;
+            height:30px;
+            margin-left:50px;
+        }
+        .newpriceclick{
+            width:60px;
+            height:30px;
+            background:#69c6ba;
+            margin-left:50px;
+        }
+        .newpriceclick:hover{
+            background:#c66995;
+        }
